@@ -1,0 +1,16 @@
+@media print{
+    @page{
+        margin: 0;
+    }
+    body{
+        margin: 1cm;
+        -webkit-print-color-adjust:exact;
+        print-color-adjust:exact;
+    }
+    .qtn_total_bill{
+        page-break-inside: avoid;
+    }
+    button{
+        display: none;
+    }
+}

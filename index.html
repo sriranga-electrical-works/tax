@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri ranga electrical work's</title>
+    <link rel="stylesheet" href="page_style.css">
+    <link rel="stylesheet" href="print_style.css">
+</head>
+<body>
+    <!-- herader content -->
+    <header>
+        <div class="header-title">
+            <div></div>
+            <div><h1>TAX INVOICE</h1></div>
+            <div class="header-title-right">
+                <p class="quotation_no"><b>INVOICE NO :</b><em><span id="quotation_no" contenteditable="true">000</span></em></p>
+                <p class="date"><b>Date :</b><em><span id="date" contenteditable="true">dd/mm/yyyy</span></em></p>
+            </div>
+        </div>
+        <div class="header">
+            <h1 contenteditable="true">SRI RANGA ELECTRICAL WORK'S</h1>
+            <p><b><em contenteditable="true">Specialist in: Rewinding</em></b></p>
+            <p contenteditable="true">Rewinding of AC, LT&HT Motor Transformer submersible pump</p>
+            <p contenteditable="true">LLIG, 11/24 NHI, Mangayarkarasi street, Maraimalai Nagar (Near TMB BANK)
+            <p contenteditable="true">Chengalpattu Dist - 603209 , <b>GST NO: 33EXTPM4299H1ZP</b></p>
+        </div>
+    </header>
+
+    <!-- quotation details -->
+    <section class="qtn_details">
+        <article>
+            <p><b>Bill To : </b></p>
+            <p  class="customer_name">&nbsp;&nbsp;&nbsp;&nbsp;<span id="customer_name" contenteditable="true">customer name</span>,</p>
+            <div id="customer_address">
+                <p contenteditable="true">address</p>
+            </div>
+            <p class="gst_in"><b>GST IN :<em><span id="gst_in" contenteditable="true">gst number</span></em></b></p>
+        </article>
+    </section>
+
+    <!-- quotation bill -->
+     <section>
+        <table class="qtn_bill">
+            <thead>
+                <tr>
+                    <th>S.NO</th>
+                    <th>DESCRIPTION</th>
+                    <th>HSN CODE</th>
+                    <th>QTY</th>
+                    <th>RATE</th>
+                    <th>AMOUNT</th>
+                </tr>
+            </thead>
+            <tbody id="table_body">
+                <tr>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                </tr>
+               
+            </tbody>
+        </table>
+        <button id="add_table_line">add table lines</button>
+     </section>
+
+     <!-- quotation total bill -->
+      <section class="qtn_total_bill_section">
+        <table class="qtn_total_bill" id="table_body2">
+                <tr>
+                    <th contenteditable="true">TAXABLE AMOUNT</th>
+                    <td contenteditable="true"></td>
+                </tr>
+                <tr>
+                    <th contenteditable="true"> CGST 9%</th>
+                    <td contenteditable="true"></td>
+                </tr>
+                <tr>
+                    <th contenteditable="true"> SGST 9%</th>
+                    <td contenteditable="true"></td>
+                </tr>
+                <tr>
+                    <th contenteditable="true">TOTAL AMOUNT</th>
+                    <td contenteditable="true"></td>
+                </tr>
+        </table>
+      </section>
+      <button id="add_table_line2">add table2 lines</button>
+
+      <section class="total_amount">
+            <p><b>Total Amount (INR -in Words) :</b></p>
+            <p contenteditable="true">987654321</p>
+      </section>
+      <!-- footer -->
+       <footer>
+           <p><i><em>Thank You</em></i></p>
+           <button onclick="print()">print quotation</button>
+       </footer>
+</body>
+<script src="script.js"></script>
+</html>
