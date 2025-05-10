@@ -101,5 +101,4 @@ button:active{
     display: flex;
     flex-direction: column;
     justify-content:space-between;
-    background: red;
 }
