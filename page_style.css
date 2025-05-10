@@ -58,7 +58,6 @@ padding: 3px;
 .qtn_total_bill_section{
     display: flex;
     flex-direction: row-reverse;
-/*     margin-top: 10px; */
 }
 footer{
     margin-top: 25px;
@@ -66,7 +65,6 @@ footer{
 }
 button{
     padding: 10px 20px;
-    /* width:100%; */
     background:green;
     color: #fff;
     border:2px solid #fff;
@@ -91,4 +89,16 @@ button:active{
     padding: 10px;
     border:2px solid #000;
     margin-top: 10px;
+}
+.auth-sign{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 20px;
+}
+.auth-sign div{
+    height:150px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
 }
