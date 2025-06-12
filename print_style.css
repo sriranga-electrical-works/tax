@@ -13,4 +13,8 @@
     button{
         display: none;
     }
+    .qtn_bill td,tr{
+        border-top: none;
+        border-bottom: none;
+    }
 }
